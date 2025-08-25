@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.brechoda_si.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Brechó da Si</name>
+    <description>
+        Aplicativo oficial do Brechó da Si - Moda sustentável com entrega delivery
+    </description>
+    <author email="contato@brechoda_si.com" href="https://brechoda_si.com">
+        Brechó da Si Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <icon density="ldpi" src="res/icon/android/drawable-ldpi-icon.png" />
+        <icon density="mdpi" src="res/icon/android/drawable-mdpi-icon.png" />
+        <icon density="hdpi" src="res/icon/android/drawable-hdpi-icon.png" />
+        <icon density="xhdpi" src="res/icon/android/drawable-xhdpi-icon.png" />
+        <icon density="xxhdpi" src="res/icon/android/drawable-xxhdpi-icon.png" />
+        <icon density="xxxhdpi" src="res/icon/android/drawable-xxxhdpi-icon.png" />
+        <splash density="land-ldpi" src="res/screen/android/drawable-land-ldpi-screen.png" />
+        <splash density="land-mdpi" src="res/screen/android/drawable-land-mdpi-screen.png" />
+        <splash density="land-hdpi" src="res/screen/android/drawable-land-hdpi-screen.png" />
+        <splash density="land-xhdpi" src="res/screen/android/drawable-land-xhdpi-screen.png" />
+        <splash density="land-xxhdpi" src="res/screen/android/drawable-land-xxhdpi-screen.png" />
+        <splash density="land-xxxhdpi" src="res/screen/android/drawable-land-xxxhdpi-screen.png" />
+        <splash density="port-ldpi" src="res/screen/android/drawable-port-ldpi-screen.png" />
+        <splash density="port-mdpi" src="res/screen/android/drawable-port-mdpi-screen.png" />
+        <splash density="port-hdpi" src="res/screen/android/drawable-port-hdpi-screen.png" />
+        <splash density="port-xhdpi" src="res/screen/android/drawable-port-xhdpi-screen.png" />
+        <splash density="port-xxhdpi" src="res/screen/android/drawable-port-xxhdpi-screen.png" />
+        <splash density="port-xxxhdpi" src="res/screen/android/drawable-port-xxxhdpi-screen.png" />
+        
+        <preference name="AndroidLaunchMode" value="singleTop" />
+        <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/icon/android/drawable-xxxhdpi-icon.png" />
+        <preference name="AndroidWindowSplashScreenBackground" value="#8B4513" />
+    </platform>
+    
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="22" />
+    <preference name="android-targetSdkVersion" value="33" />
+    <preference name="BackupWebStorage" value="none" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
+    <preference name="FadeSplashScreenDuration" value="300" />
+    <preference name="SplashShowOnlyFirstTime" value="false" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="3000" />
+    <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <plugin name="cordova-plugin-splashscreen" spec="~6.0.0" />
+    <plugin name="cordova-plugin-statusbar" spec="~3.0.0" />
+    <plugin name="cordova-plugin-device" spec="~2.1.0" />
+    <plugin name="cordova-plugin-network-information" spec="~3.0.0" />
+    <plugin name="cordova-plugin-file" spec="~7.0.0" />
+    <plugin name="cordova-plugin-inappbrowser" spec="~5.0.0" />
+</widget>
